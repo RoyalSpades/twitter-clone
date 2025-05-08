@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Why do this?
+
+- Play with the latest full stack toys
+- I might want to host my own, to share with my friends
+- you can too, why not?
+
+## This is WIP - bring a hardhat
+
 ## Getting Started
 
 First, run the development server:
