@@ -4,6 +4,8 @@ import "./globals.css";
 import Sidebar from "./components/layout/Sidebar";
 import FollowBar from "./components/layout/FollowBar";
 import type { AppProps } from "next/app";
+import LoginModal from "./components/modals/LoginModal";
+import RegisterModal from "./components/modals/RegisterModal";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,6 +36,8 @@ export default function RootLayout({
         <div className="h-screen bg-black">
           <div className="container h-full mx-auto xl:px-30 max-w-6xl">
             <div className="grid grid-cols-4 h-full">
+              <LoginModal />
+              <RegisterModal />
               <Sidebar />
               <div className="col-span-3 lg:col-span-2 border-x-[1px] border-neutral-800 p-5">
               {children}

@@ -101,7 +101,7 @@ const Modal: React.FC<ModalProps> = ({
                         className="
                             p-1
                             ml-auto
-                            border-0
+                            border-1
                             text-white
                             hover:opacity-70
                             transition
