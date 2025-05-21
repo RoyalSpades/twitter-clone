@@ -3,6 +3,7 @@
 import useLoginModal from "@/app/hooks/useLoginModal";
 import useRegisterModal from "@/app/hooks/useRegisterModal";
 import Modal from "@/app/Modal";
+import { cp } from "fs";
 import{ useCallback, useState} from "react";
 
 const LoginModal = () => {
@@ -19,8 +20,8 @@ const LoginModal = () => {
             return;
         }
 
-        registerModal.onClose();
-        loginModal.onOpen();
+        loginModal.onClose();
+        registerModal.onOpen();
     },[isLoading, registerModal, loginModal])
 
     const onSubmit = useCallback(() => {
